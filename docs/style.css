@@ -1,9 +1,28 @@
 html,
-body {
-    background-color: lightblue;
+nav ul {
+    color: navy;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em; 
+  }
+  nav ul li {
+    display: inline-block;
+    margin: 50px;
   }
   
-  h1 {
+  nav ul li a {
+    color: #000;
+    text-decoration: none;  
+  }
+  nav ul li a:hover {
+    color: #ababab;
+  }  
+#welcome {
     color: navy;
-    margin-left: 20px;
+    text-align: center;
+  }
+  
+body {
+    background-color: lightblue;
   }
