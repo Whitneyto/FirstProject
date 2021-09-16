@@ -24,16 +24,14 @@ body {
 }
 #logo{
   float:left;
+  height:40px;
+  width:40px;
+  align-items: center;
   color: black;
-  text-align:center;
-  padding-top: 0.5em;
-  padding-left: 0.4em;
   font: Brush Script MT, Brush Script Std, cursive;
   font-weight: 900;
 }
-.circle, .top-URL{
-  display: inline-block;
-}
+
 .top-URL a{
   float:right;
   color:black;
