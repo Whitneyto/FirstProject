@@ -1,28 +1,50 @@
 html,
-nav ul {
-    color: navy;
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    font-size: 1.5em; 
-  }
-  nav ul li {
-    display: inline-block;
-    margin: 50px;
-  }
-  
-  nav ul li a {
-    color: #000;
-    text-decoration: none;  
-  }
-  nav ul li a:hover {
-    color: #ababab;
-  }  
-#welcome {
-    color: navy;
-    text-align: center;
-  }
-  
 body {
-    background-color: lightblue;
+    background-color: white;
   }
+.top-bar{
+  background-color: cadetblue;
+  block-size: 55px;
+  position: relative;
+}
+.top-row {
+  color: white;
+  display:grid;
+}
+.circle {
+  height:40px;
+  width:40px;
+  align-items: center;
+  border: 2px black;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.4em;
+}
+#logo{
+  color: black;
+  text-align:center;
+  padding-top: 0.5em;
+  font: Brush Script MT, Brush Script Std, cursive;
+  font-weight: 900;
+}
+.top-row a{
+  color:black;
+  font-weight:600;
+  text-decoration: none;
+  float:right;
+  font-size: 20px;
+  margin-inline-end: 35px;
+  margin-top: 0.5em;
+}
+.Intro-text{
+  background-color: lightblue;
+  block-size: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Intro-text h1{
+  margin-bottom: 20px;
+}
