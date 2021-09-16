@@ -12,27 +12,33 @@ body {
   display:grid;
 }
 .circle {
+  float:left;
   height:40px;
   width:40px;
   align-items: center;
   border: 2px black;
   background-color: white;
   border-radius: 50%;
-  display: inline-block;
   margin: 0.4em;
+  cursor: pointer
 }
 #logo{
+  float:left;
   color: black;
   text-align:center;
   padding-top: 0.5em;
+  padding-left: 0.4em;
   font: Brush Script MT, Brush Script Std, cursive;
   font-weight: 900;
 }
-.top-row a{
+.circle, .top-URL{
+  display: inline-block;
+}
+.top-URL a{
+  float:right;
   color:black;
   font-weight:600;
   text-decoration: none;
-  float:right;
   font-size: 20px;
   margin-inline-end: 35px;
   margin-top: 0.5em;
