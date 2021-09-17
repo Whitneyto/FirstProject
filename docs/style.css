@@ -7,10 +7,6 @@ body {
   float:left;
   height:50px;
   width:50px;
-  align-items: center;
-  color: black;
-  font: Brush Script MT, Brush Script Std, cursive;
-  font-weight: 900;
 }
 
 .Intro-text{
@@ -23,4 +19,11 @@ body {
 }
 .Intro-text h1{
   margin-bottom: 20px;
+}
+.block-proj{
+  block-size: 1000px;
+}
+footer{
+  block-size: 200px;
+  background-color: rgb(39, 36, 36);
 }
