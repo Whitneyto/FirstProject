@@ -10,7 +10,7 @@ body {
 }
 
 .Intro-text{
-  background-color: lightgrey;
+  background-color: rgb(228, 228, 228);
   block-size: 275px;
   display: flex;
   flex-direction: column;
@@ -35,10 +35,15 @@ body {
 }
 .card{
   display: inline-block;
+  background-color: rgb(235, 235, 235);
   text-align: center;
-  margin-inline: 75px;;
+  margin: 75px;;
 
+}
 
+.card > img{
+  margin-top: 1.5em;
+  width: 75%;
 }
 
 footer{
