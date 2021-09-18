@@ -47,15 +47,31 @@ body {
 }
 
 footer{
-  block-size: 200px;
   background-color: rgb(39, 36, 36);
 }
 
-.footer-rowd {
-  display: inline-flex;
-  justify-content: space-around;
+.footer-row-all {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.footer-rowd > h5{
+.footer-block{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-block > ul >h4{
+  margin-bottom: 20px;
+}
+.footer-block > ul >li > a {
   Color: white;
 }
+
+.footer-block >ul>li>img {
+  width : 8%;
+}
+
+.footer-block > ul >li {
+  margin-block: 10px;
+}
+
+
