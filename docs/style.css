@@ -50,3 +50,12 @@ footer{
   block-size: 200px;
   background-color: rgb(39, 36, 36);
 }
+
+.footer-rowd {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.footer-rowd > h5{
+  Color: white;
+}
