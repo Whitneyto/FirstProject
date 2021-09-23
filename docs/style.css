@@ -52,7 +52,7 @@ footer{
 
 .footer-row-all {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
 .footer-block > img{
