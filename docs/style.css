@@ -43,7 +43,8 @@ body {
 
 .card > img{
   margin-top: 1.5em;
-  width: 75%;
+  max-width: 300px;
+  max-height: 200px;
 }
 
 footer{
