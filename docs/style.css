@@ -137,6 +137,7 @@ footer{
   margin-top: 22px;
   margin-bottom: 20px;
   color:white;
+  text-decoration: underline;
 }
 .footer-block > ul >li > a {
   Color: grey;
