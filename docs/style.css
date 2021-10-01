@@ -46,6 +46,23 @@ body {
   max-width: 300px;
   max-height: 200px;
 }
+/*ABOUT*/
+.about-title{
+  font-weight: bold;
+  font-size: 50px;
+  color:white;
+  text-decoration: underline;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: rgb(55, 55, 59);
+  margin: 1em 5em 1em 5em;
+}
+.about-description{
+margin: 3em 3em 10em 3em;
+font-size: 30px;
+}
+/*End ABOUT*/
 /*CONTACT*/
 .contact{
   text-align: center;
